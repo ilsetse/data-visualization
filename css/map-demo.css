@@ -1,0 +1,20 @@
+h4 { margin-top:5%; }
+
+#leaflet-demo,
+#datamaps-demo,
+#polymaps-demo,
+#kartograph-demo,
+#amcharts-demo {
+  height: 600px;
+}
+
+#datamaps-demo,
+#amcharts-demo {
+	background-color: #dcdcdc;
+}
+
+#polymaps-demo svg {
+  height: 600px;
+  width: 100%;
+}
+
