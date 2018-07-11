@@ -5,7 +5,7 @@ var map = AmCharts.makeChart( "amcharts-demo", {
   
   "dataSets":[{
 		"dataLoader": {
-			"url": "data/datamaps-usDensity.json",
+			"url": "https://raw.githubusercontent.com/ilsetse/data-visualizations/master/data/amcharts-usDensity.json",
 			"format": "json" }
   }],
 
