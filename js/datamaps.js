@@ -14,7 +14,7 @@ var map = new Datamap({
     borderColor: '#fff',
     borderWidth: 2
   },
-  dataUrl: 'data/code-usDensity.json',
+  dataUrl: 'data/datamaps-usDensity.json',
   dataType: 'json',
   fills: {
     '1': '#5e3c58',
