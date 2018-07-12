@@ -3,7 +3,7 @@ h4 { margin-top:5%; }
 #leaflet-demo,
 #datamaps-demo,
 #polymaps-demo,
-#kartograph-demo,
+#openlayer-demo,
 #amcharts-demo {
   height: 600px;
 }
