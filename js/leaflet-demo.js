@@ -13,6 +13,7 @@ var geojson;
 function loadData(d){
   geojson = L.geoJson(d, {
     style: style,
+    onEachFeature: interaction
   }).addTo(map);
   
 }
@@ -35,7 +36,7 @@ function style(d) {
     weight: 2,
     opacity: 1,
     color: 'white',
-    fillOpacity: 0.7,
+    fillOpacity: 1,
     fillColor: getColor(d.properties.density)
   };
 } // endof style
@@ -46,7 +47,7 @@ function highlightSelected(d){
   layer.setStyle({
     weight: 4,
     color: '#333',
-    fillOpacity: 0.7
+    fillOpacity: 1
   });
 
   // todo: cross browser support
